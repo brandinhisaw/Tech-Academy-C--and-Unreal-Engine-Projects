@@ -12,6 +12,16 @@ int main()
 		Connection connection = Connection::Memory();
 
 		Statement statement;
+
+		statement.Prepare(connection, L"select 'Hello World'");
+
+		while (statement.Step())
+		{
+			wchar_t const * w = statement.GetWideString(0);
+			int length = statement.GetWideStringLength(0);
+
+			printf("%ls (%d)\n", w, length);
+		}
 	}
 	catch (Exception const & e)
 	{

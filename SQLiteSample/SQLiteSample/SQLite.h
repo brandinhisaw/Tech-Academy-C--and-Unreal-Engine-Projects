@@ -95,7 +95,38 @@ public:
 
 };
 
-class Statement
+template <typename T>
+struct Reader
+{
+	int GetInt(int const column = 0) const noexcept
+	{
+		return sqlite3_column_int(static_cast<T const *>(this)->GetAbi(), column);
+	}
+
+	char const * GetString(int const column = 0) const noexcept
+	{
+		return reinterpret_cast<char const*>(sqlite3_column_text(
+			static_cast<T const*>(this)->GetAbi(), column));
+	}
+
+	wchar_t const * GetWideString(int const column = 0) const noexcept
+	{
+		return reinterpret_cast<wchar_t const*>(sqlite3_column_text16(
+			static_cast<T const*>(this)->GetAbi(), column));
+	}
+
+	int GetStringLength(int const column = 0) const noexcept
+	{
+		return sqlite3_column_bytes(static_cast<T const*>(this)->GetAbi(), column);
+	}
+
+	int GetWideStringLength(int const column = 0) const noexcept
+	{
+		return sqlite3_column_bytes16(static_cast<T const*>(this)->GetAbi(), column) / sizeof(wchar_t);
+	}
+};
+
+class Statement : public Reader<Statement>
 {
 	struct StatementHandleTraits : HandleTraits<sqlite3_stmt *>
 	{
@@ -146,5 +177,20 @@ public:
 	void Prepare(Connection const & connection, wchar_t const* const text)
 	{
 		InternalPrepare(connection, sqlite3_prepare16_v2, text);
+	}
+
+	bool Step() const
+	{
+		int const result = sqlite3_step(GetAbi());
+
+		if (result == SQLITE_ROW) return true;
+		if (result == SQLITE_DONE) return false;
+
+		ThrowLastError();
+	}
+
+	void Execute() const
+	{
+		VERIFY(!Step());
 	}
 };
