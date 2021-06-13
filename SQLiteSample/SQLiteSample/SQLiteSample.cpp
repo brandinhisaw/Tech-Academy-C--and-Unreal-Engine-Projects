@@ -13,14 +13,11 @@ int main()
 
 		Statement statement;
 
-		statement.Prepare(connection, L"select 'Hello World'");
+		statement.Prepare(connection, L"select 'Hello' union all select 'World'");
 
-		while (statement.Step())
+		for (Row const& row : statement) 
 		{
-			wchar_t const * w = statement.GetWideString(0);
-			int length = statement.GetWideStringLength(0);
-
-			printf("%ls (%d)\n", w, length);
+			printf("%s\n", row.GetString(0));
 		}
 	}
 	catch (Exception const & e)
