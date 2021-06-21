@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MyProject",
+			"Path": "C:\\Users\\Hsarus\\myProjects\\Tech-Academy-C++-and-Unreal-Engine-Projects\\MyProject\\Source\\MyProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MyProjectEditor",
+			"Path": "C:\\Users\\Hsarus\\myProjects\\Tech-Academy-C++-and-Unreal-Engine-Projects\\MyProject\\Source\\MyProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

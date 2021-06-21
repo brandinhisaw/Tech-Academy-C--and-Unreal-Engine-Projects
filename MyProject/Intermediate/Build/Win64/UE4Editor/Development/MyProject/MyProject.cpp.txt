@@ -1,0 +1,2 @@
+C:\Users\Hsarus\myProjects\Tech-Academy-C++-and-Unreal-Engine-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\Definitions.MyProject.h
+C:\Users\Hsarus\myProjects\Tech-Academy-C++-and-Unreal-Engine-Projects\MyProject\Source\MyProject\MyProject.h

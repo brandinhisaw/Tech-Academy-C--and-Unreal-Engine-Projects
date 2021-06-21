@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Hsarus\\myProjects\\Tech-Academy-C++-and-Unreal-Engine-Projects\\MyProject\\Source\\MyProject\\MyProject.Build.cs",
+		"C:\\Users\\Hsarus\\myProjects\\Tech-Academy-C++-and-Unreal-Engine-Projects\\MyProject\\Source\\MyProject.Target.cs",
+		"C:\\Users\\Hsarus\\myProjects\\Tech-Academy-C++-and-Unreal-Engine-Projects\\MyProject\\Source\\MyProjectEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}

@@ -1,0 +1,7 @@
+C:\Users\Hsarus\myProjects\Tech-Academy-C++-and-Unreal-Engine-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\Definitions.MyProject.h
+C:\Users\Hsarus\myProjects\Tech-Academy-C++-and-Unreal-Engine-Projects\MyProject\Source\MyProject\Block.h
+C:\Users\Hsarus\myProjects\Tech-Academy-C++-and-Unreal-Engine-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Inc\MyProject\Block.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
