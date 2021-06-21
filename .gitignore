@@ -6,3 +6,6 @@
 /DogClass/.vs/DogClass/v16/Browse.VC.opendb
 /ShapeClassAndSubClasses/.vs/ShapeClassAndSubClasses/v16/Browse.VC.opendb
 *.opendb
+MyProject/.vs/MyProject/v16/Browse.VC.db
+MyProject/.vs/MyProject/v16/ipch/AutoPCH/8c8088cf5df4dd1b/BOUNDARY.ipch
+MyProject/Intermediate/Build/Win64/MyProjectEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch
