@@ -1,17 +1,22 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Hsarus\myProjects\Tech-Academy-C++-and-Unreal-Engine-Projects).
+  Creating makefile for MyProjectEditor (.uproject file is newer)
   Parsing headers for MyProjectEditor
     Running UnrealHeaderTool "C:\Users\Hsarus\myProjects\Tech-Academy-C++-and-Unreal-Engine-Projects\MyProject\MyProject.uproject" "C:\Users\Hsarus\myProjects\Tech-Academy-C++-and-Unreal-Engine-Projects\MyProject\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Hsarus\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for MyProjectEditor in 3.4709612 seconds
+  Reflection code generated for MyProjectEditor in 23.9466674 seconds
   Building MyProjectEditor...
   Using Visual Studio 2019 14.29.30037 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30037) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 12 processes...
-    [1/6] MyProject.init.gen.cpp
-    [2/6] Boundary.cpp
-    [3/6] Boundary.gen.cpp
-    [4/6] UE4Editor-MyProject-0014.lib
-       Creating library C:\Users\Hsarus\myProjects\Tech-Academy-C++-and-Unreal-Engine-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0014.lib and object C:\Users\Hsarus\myProjects\Tech-Academy-C++-and-Unreal-Engine-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0014.exp
-    [5/6] UE4Editor-MyProject-0014.dll
-       Creating library C:\Users\Hsarus\myProjects\Tech-Academy-C++-and-Unreal-Engine-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0014.suppressed.lib and object C:\Users\Hsarus\myProjects\Tech-Academy-C++-and-Unreal-Engine-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0014.suppressed.exp
-    [6/6] MyProjectEditor.target
-  Total time in Parallel executor: 1.53 seconds
-  Total execution time: 5.71 seconds
+  Building 10 actions with 12 processes...
+    [1/10] SharedPCH.Engine.ShadowErrors.cpp
+    [2/10] MyProject.cpp
+    [3/10] Boundary.cpp
+    [4/10] Block.cpp
+    [5/10] MyProject.init.gen.cpp
+    [6/10] Boundary.gen.cpp
+    [7/10] Block.gen.cpp
+    [8/10] UE4Editor-MyProject-0015.lib
+       Creating library C:\Users\Hsarus\myProjects\Tech-Academy-C++-and-Unreal-Engine-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0015.lib and object C:\Users\Hsarus\myProjects\Tech-Academy-C++-and-Unreal-Engine-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0015.exp
+    [9/10] UE4Editor-MyProject-0015.dll
+       Creating library C:\Users\Hsarus\myProjects\Tech-Academy-C++-and-Unreal-Engine-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0015.suppressed.lib and object C:\Users\Hsarus\myProjects\Tech-Academy-C++-and-Unreal-Engine-Projects\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-0015.suppressed.exp
+    [10/10] MyProjectEditor.target
+  Total time in Parallel executor: 34.90 seconds
+  Total execution time: 65.73 seconds
