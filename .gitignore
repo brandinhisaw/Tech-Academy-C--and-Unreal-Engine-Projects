@@ -6,6 +6,18 @@
 /DogClass/.vs/DogClass/v16/Browse.VC.opendb
 /ShapeClassAndSubClasses/.vs/ShapeClassAndSubClasses/v16/Browse.VC.opendb
 *.opendb
+<<<<<<< Updated upstream
 MyProject/.vs/MyProject/v16/Browse.VC.db
 MyProject/.vs/MyProject/v16/ipch/AutoPCH/8c8088cf5df4dd1b/BOUNDARY.ipch
 MyProject/Intermediate/Build/Win64/MyProjectEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch
+=======
+MyProject/Intermediate/Build/Win64/MyProjectEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.txt
+MyProject/.vs/MyProject/v16/Browse.VC.db
+MyProject/.vs/MyProject/v16/ipch/AutoPCH/8c8088cf5df4dd1b/BOUNDARY.ipch
+MyProject/Intermediate/Build/Win64/MyProjectEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.cpp
+MyProject/Intermediate/Build/Win64/MyProjectEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h
+MyProject/Intermediate/Build/Win64/MyProjectEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.obj
+MyProject/Intermediate/Build/Win64/MyProjectEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.h.pch
+MyProject/.vs/MyProject/v16/Solution.VC.db
+MyProject/.vs/MyProject/v16/.suo
+>>>>>>> Stashed changes
